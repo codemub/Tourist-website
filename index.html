@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripExpo-TamilNadu Tourism</title>
+
+  <!--
+    - favicon apidi na tab near ulla logo
+  -->
+  <link rel="shortcut icon" href="./favicon.jpg" type="image/svg+xml">
+
+  <!--
+    -  css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+ <!-- font style-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Trip Expo</h1>   <!-- img nalum add pannikalm but ratio add pana num CSS-->
+
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+        <ion-icon name="menu-outline" class="open"></ion-icon>   <!--- right side irukum la 3kodu and * -->
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+
+          <li>
+            <a href="district.html" class="navbar-link">District</a>
+          </li>
+          <li>
+            <a href="about.html" class="navbar-link">About site</a>
+          </li>
+
+
+          <li>
+            <a href="team.html" class="navbar-link">Contact Us</a>
+          </li>
+
+         <!--  <li>
+            <a href="#" class="navbar-link">Galery</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Map</a>
+          </li>  -->
+
+
+
+        </ul>
+
+        <a href="#" class="btn btn-secondary">Packages</a>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="section hero">
+        <div class="container">
+
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Explore Your Travel</p>
+
+            <h2 class="hero-title">Explore UnFamiliar places</h2>
+
+            <p class="hero-text">
+              "The journey of a thousand miles begins with a single step."<br>
+              "The world is a book and those who do not travel read only one page"
+            </p>
+
+            <div class="btn-group">
+              <a href="team.html" class="btn btn-primary">Contact Us</a>
+
+              <a href="#" class="btn btn-outline">Packages</a>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/thnj bck.jpg" width="686" height="812" alt="TripExpo-TamilNadu"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+      <!--
+        - #DESTINATION
+      -->
+
+      <section class="section destination">
+        <div class="container">
+
+          <p class="section-subtitle">Destinations</p>
+
+          <h2 class="h2 section-title">Choose Your Place(District)</h2>
+
+          <p  class="about-item-text"><strong>NOTICES:</strong> Only Madurai District
+            will be show in  this is frontend website with a sample data witout database.</p>
+
+          <ul class="destination-list">
+
+            <li class="w-50">
+              <a href="#" class="destination-card">
+
+
+
+
+
+
+                <figure class="card-banner">
+                  <img src="./assets/images/thiruvalluvar.jpg" width="1140" height="1100"
+                    alt="Kanyakumari" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">ஆயுத்யா நாடு</p>
+
+                  <h3 class="h3 card-title">Kanyakumari</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="w-50">
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/thnj.jpg" width="1140" height="1100" loading="lazy"
+                    alt="Thanjavur" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">சோழதேசம்</p>
+
+                  <h3 class="h3 card-title">Thanjavur</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="details.html" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/maduraimain.jpg" width="1110" height="480"
+                    alt="Madurai" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">கடம்பவனம்</p>
+
+                  <h3 class="h3 card-title">Madurai</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/sriviliputhur1.jpg" width="1110" height="480"
+                    alt="Virudhunagar" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">விருதுபட்டி</p>
+
+                  <h3 class="h3 card-title">Virudhunagar</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/yercad.jpg" width="1110" height="480"
+                    alt="Theni" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">மாங்கனி நகரம்</p>
+
+                  <h3 class="h3 card-title">Salem</h3>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <section class="section blog">
+        <div class="container">
+
+          <p class="section-subtitle">From The Blog Post</p>
+
+          <h2 class="h2 section-title">Most Favorable Spot</h2>
+
+          <ul class="blog-list">
+<!-------------------------------------blog card start------------------------------------------------------------>
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/megamalai.jpg" width="740" height="518"
+                      alt="karaikal" class="img-cover">
+                  </a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+
+                    <div class="author-wrapper">
+                      <figure class="author-avatar">
+                        <img src="./assets/images/txpo.jpg" width="30" height="30" alt="tripexpo">
+                      </figure>
+
+                      <div>
+                        <a href="#" class="author-name">Megamalai</a>
+
+                        <p class="author-title">Hills</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <h3 class="card-title">
+                    <a><!-- use href for link-->
+                      Megamalai is an unseen paradise located in the Theni district.
+                      It is also known as Paccha Kumachi(Green Peak).
+                    </a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span>Read More</span>
+
+                   <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+<!-----------------------------------------------------megamalai finished---------------------------------->
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/kodai.jpg" width="740" height="518"
+                      alt="Kodaikanal" class="img-cover">
+                  </a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+
+                    <div class="author-wrapper">
+                      <figure class="author-avatar">
+                        <img src="./assets/images/txpo.jpg" width="30" height="30" alt="tripexpo">
+                      </figure>
+
+                      <div>
+                        <a href="#" class="author-name">Kodaikanal</a>
+
+                        <p class="author-title">Hills</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <h3 class="card-title">
+                    <a >  <!-- use href for link-->
+                      Kodaikanal  is a hill station which is located in Dindigul district in Tamil Nadu.
+                      Its means "The Gift of the Forest" in Tamil
+                    </a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span>Read More</span>
+
+                   <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+<!-----------------------------------------------------kodaikanal finished---------------------------------->
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/maha.jpg" width="740" height="518"
+                      alt="mahabalipuram" class="img-cover">
+                  </a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+
+                    <div class="author-wrapper">
+                      <figure class="author-avatar">
+                        <img src="./assets/images/txpo.jpg" width="30" height="30" alt="tripexpo">
+                      </figure>
+
+                      <div>
+                        <a href="#" class="author-name">Mahabalipuram</a>
+
+                        <p class="author-title">Beach</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <h3 class="card-title">
+                    <a> <!-- use href for link-->
+                      Mahabalipuram is an old port town in the Indian state of Tamil Nadu.
+                      Mahabalipuram is known for its golden sandy beach
+                    </a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span>Read More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+<!-----------------------------------------------------mahabalipuram finished---------------------------------->
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+    </article>
+  </main>
+
+
+<!--
+        - #ABOUT
+      -->
+
+      <section class="section about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">Explore all tour of the Tamil Nadu with us.</h2>
+
+            <p class="about-text">
+              To Explore the UnFamiliar places in all "District" all over the TamilNadu. To help the user to schedude their
+              visiting places.To display the best hotel nearest to their visiting places.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+
+                <div class="about-item-icon">
+                  <ion-icon name="compass"></ion-icon>
+                </div>
+
+                <div class="about-item-content">
+                  <h3 class="h3 about-item-title">Tour guide</h3>
+
+                  <p class="about-item-text">
+                    To explore UnFamiliar available places in Tamil Nadu to  show case the
+                    "TamilNadu" heritage.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="about-item-icon">
+                  <ion-icon name="briefcase"></ion-icon>
+                </div>
+
+                <div class="about-item-content">
+                  <h3 class="h3 about-item-title">Friendly price</h3>
+
+                  <p class="about-item-text">
+                    The user can easily plan their journey. They can explore more places in minimum time and minimum cost(packages).
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="about-item-icon">
+                  <ion-icon name="umbrella"></ion-icon>
+                </div>
+
+                <div class="about-item-content">
+                  <h3 class="h3 about-item-title">Experience</h3>
+
+                  <p class="about-item-text">
+                    You can feel the Experience about the trip. It may be a pleasant memories
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+
+            <a href="#" class="btn btn-primary">Packages</a>
+
+          </div>
+
+          <figure class="about-banner">
+            <img src="favicon.jpg" width="756" height="842"  alt="" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Top destination</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Kanyakumari</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Thanjavur</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Madurai</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Virudhunagar</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Salem</a>
+          </li>
+
+        </ul>
+
+       <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Categories</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Hills</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Beach</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Temple</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Mordern-Heritage</a>
+          </li>
+
+        </ul>
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Quick links</p>
+          </li>
+          <li>
+            <a href="index.html" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="footer-link">About site</a>
+          </li>
+
+          <li>
+            <a href="team.html" class="footer-link">Contact us</a>
+          </li>
+
+          <li>
+            <a href="district.html" class="footer-link">District</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Get a more details</p>
+
+          <p class="newsletter-text">
+            For the latest deals and tips, travel no further than your inbox
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
+
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <a href="index.html" class="logo">Trip Expo</a>
+
+        <p class="copyright">
+          &copy; 2023 <a href="#" class="copyright-link">Trip Expo Team</a>. All Rights Reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!--
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link animation
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
